@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- Haniya Fatima WEB 150, ASN5 Business name: QueenGirl -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is my Fake Business Website, named Queen Girl which sells fragrances for women!">
+  <title>Queen Girl</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="contact_page">
+  <!-- Navigation -->
+  <nav>
+    <div class="logo-utility">
+      <h2> QueenGirl </h2>
+      <div>
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button>Sign up</button>
+        <i class="fa-solid fa-user-plus"></i>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Product</a></li>
+      <li><a href="#" class="current">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <header>
+
+  </header>
+  <h1>Contact Us</h1>
+  <!-- main tag starts here -->
+  <main>
+    <div class="row contact_block">
+
+      <form action="submit.php" method="post" name="contact_form" id="contact_form">
+        <h2>Get in touch!</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <input type="checkbox" name="alerts" value="get" id="alerts" checked>
+        <label for="alerts">Get alerts from us?</label>
+
+        <label for="hear">How did you hear about us?</label>
+        <select name="hear" id="hear">
+          <option value="">- Select One -</option>
+          <option value="1">Instagram</option>
+          <option value="2">Facebook</option>
+          <option value="3">Twitter</option>
+          <option value="4">Friend</option>
+          <option value="5">Ad</option>
+          <option value="6">Others</option>
+        </select>
+
+        <p id="recommend">How much are you likely to recommend our products to someone?</p>
+        <div class="radio-format" role="group" aria-labelledby="recommend">
+          <label for="unlikely">
+            <input type="radio" name="perfumes" id="unlikely" value="no">
+            Very Unlikely
+          </label>
+
+          <label for="neutral">
+            <input type="radio" name="perfumes" id="neutral" value="ok">
+            Neutral
+          </label>
+
+          <label for="likely">
+            <input type="radio" name="perfumes" id="likely" value="yes">
+            Very Likely
+          </label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" placeholder="Message...."></textarea>
+
+        <input class="btn" type="submit" value="Submit" aria-label="Submit">
+      </form>
+
+      <div class="contact_box">
+        <h4>Call Us</h4>
+        <p>123-456-789</p>
+
+        <h4>Location</h4>
+        <p>123 RockStreet, 21 Avenue <br>
+          NewYork, NY 92103-9000 </p>
+
+
+        <h4>Email Address</h4>
+        <p>queengirl1@gmail.com</p>
+
+        <div class="icons">
+          <a href="https://twitter.com" target="_blank" title="Go go Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://facebook.com" target="_blank" title="Go go Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" title="Go go Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- contact_block div end below -->
+    </div>
+  </main>
+
+  <iframe class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2961.226024862811!2d-88.07487918425787!3d42.08120656065779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa5ea9833a843%3A0xeb56837f813674f!2sHarper%20College!5e0!3m2!1sen!2sus!4v1649874566606!5m2!1sen!2sus"
+    width="1000" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- Footer -->
+  <footer>
+    <section>
+      <a href="#">Customer Service</a>
+      <a href="#">Live Chat</a>
+      <a href="#">Find a Store</a>
+      <a href="#">Careers</a>
+    </section>
+
+    <section>
+      <a href="#">Order Status</a>
+      <a href="">Shipping Information</a>
+      <a href="#">Return Policy</a>
+    </section>
+
+    <section>
+      <h2>Queen Girl</h2>
+      <input type="text" placeholder="Sign up to stay in the know">
+      <button type="button" name="button" class="btn-footer">Submit</button>
+      <div class="icons">
+        <a href="https://twitter.com" target="_blank" title="Go go Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://facebook.com" target="_blank" title="Go go Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" title="Go go Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+    </section>
+  </footer>
+
+  <!-- Copyright Section -->
+  <div class="copyright">
+    <span>Copyright 2022 Haniya Fatima</span>
+  </div>
+
+
+
+  <!-- Font Awesome link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+
+</body>
+
+</html>
