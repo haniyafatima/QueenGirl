@@ -1,0 +1,495 @@
+/* Haniya Fatima WEB 150, ASN5 Business name: QueenGirl  */
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 10px;
+  font-weight: lighter;
+  color: #e9c080;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+nav {
+  padding: 10px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255, .90);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #e9c080;
+}
+
+.current {
+  border-bottom: 1px solid #e9c080;
+}
+
+.logo-utility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-utility input {
+  padding: 10px;
+}
+
+.logo-utility button {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+.logo-utility a {
+  font-size: 25px;
+  color: #e9c080;
+}
+
+.fa-magnifying-glass, .fa-user-plus {
+  display: none;
+  font-size: 25px;
+  color: #e9c080;
+  margin-right: 15px;
+}
+
+/* Header */
+.hero {
+  width: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-basis: 50%;
+  background-color: #ffebf3;
+  text-align: center;
+  margin: 0 auto;
+  height: 70vh;
+}
+
+header img {
+  width: 40%;
+  height: 70vh;
+}
+
+.products_page header {
+  background-image: url(../images/engraving.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.contact_page header {
+  background-image: url(../images/rosy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.products_page h1 {
+  font-size: 40px;
+}
+
+.products_page .row {
+  flex-wrap: wrap;
+}
+
+.products_page .row img {
+  width: 250px;
+  height: 250px;
+}
+
+.fa-star, .fa-star-half-stroke {
+  color: #FFD124;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+figure button {
+  background-color: #ffebf3;
+  padding: 5px 50px;
+  font-size: 12px;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header button {
+  background-color: #e9c080;
+  border: none;
+  padding: 10px 70px;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgba(233, 192, 128, 0.5);
+}
+
+header p {
+  width: 50%;
+  margin: auto;
+  line-height: 25px;
+}
+
+header span {
+  display: inline-block;
+  font-size: 11px;
+  margin-top: 30px;
+  border-bottom: 2px dashed #e9c080;
+}
+
+/* Description Section */
+.description_block {
+  background-image: url(../images/rosy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.description_block p {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 25px;
+}
+
+/* Sale Section */
+.sale_block {
+  display: flex;
+  background-image: linear-gradient(to right, #e9c080, #fff);
+  align-items: center;
+  text-align: center;
+}
+
+.sale_block h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid rgb(255, 235, 243);
+}
+
+.sale_block p {
+  font-size: 12px;
+  width: 60%;
+  margin: auto;
+  border: 2px dashed #e9c080;
+  margin-top: 20px;
+  line-height: 20px;
+  word-spacing: 8px;
+}
+
+/* Flex property applied to all pages */
+.row img {
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+}
+
+/* New Arrivals Section */
+.arrivals_block img {
+  border-radius: 15px;
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  background-color: grey;
+}
+
+.arrivals_block, .trending_block {
+  margin-bottom: 100px;
+}
+
+/* Testimonials Block */
+.testimonials_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  padding: 15px 0px 20px 0px;
+}
+
+.testimonials_block section {
+  width: 50%;
+}
+
+.testimonials_block p {
+  margin: auto;
+  margin-bottom: 18px;
+  line-height: 30px;
+}
+
+/* Subscribe Section */
+.subscribe_block {
+  background-color: rgb(233, 192, 128, 0.5);
+  padding: 50px 0px;
+  margin-top: 25px;
+  height: 50vh;
+}
+
+.subscribe_block input {
+  padding: 15px 50px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.subscribe_block button {
+  background-color: #e9c080;
+  border: none;
+  padding: 10px 50px;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  color: #fff;
+}
+
+.subscribe_block button:hover {
+  background-color: rgba(233, 192, 128, 0.5);
+}
+
+span {
+  font-size: 20px;
+}
+
+/* Contact page */
+.contact_block {
+  padding: 50px;
+}
+
+.contact_box {
+  width: 50%;
+}
+
+form {
+  width: 50%;
+  text-align: left;
+}
+
+form input {
+  padding: 10px 40px;
+  margin-bottom: 20px;
+}
+
+form select, textarea {
+  padding: 10px 30px;
+  width: 20em;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form p {
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  background-color: #e9c080;
+  border: none;
+  padding: 10px 70px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  color: #fff;
+}
+
+form input[type="email"] {
+  display: block;
+}
+
+label[for="alerts"] {
+  display: inline;
+}
+
+.contact_box {
+  background-color: #ffebf3;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  height: 35vh;
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+}
+
+footer input {
+  padding: 15px 50px;
+  border: none;
+  margin-bottom: 20px;
+  border: 2px solid rgb(233, 192, 128, 0.5);
+}
+
+footer a:hover {
+  border-bottom: 1px dashed #e9c080;
+}
+
+.btn-footer {
+  background-color: #e9c080;
+  border: none;
+  color: #fff;
+  width: 10em;
+  padding: 10px;
+}
+
+.icons a {
+  color: #e9c080;
+  font-size: 25px;
+  margin-right: 40px;
+}
+
+.icons a:hover {
+  color: black;
+}
+
+footer .icons {
+  margin-top: 15px;
+  text-align: left;
+}
+
+/* Copyright Section */
+.copyright {
+  background-color: #ffebf3;
+  padding: 15px 0px;
+}
+
+.copyright span {
+  font-size: 14px;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .row {
+    display: inline-block;
+  }
+
+  .logo-utility input, button {
+    display: none;
+  }
+
+  .fa-magnifying-glass, .fa-user-plus {
+    display: inline;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  header img {
+    display: none;
+  }
+
+  .description_block {
+    height: 90vh;
+  }
+
+  .sale_block {
+    display: block;
+    padding: 40px 0px;
+  }
+
+  .sale_block img {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .sale_block h2 {
+    font-size: 40px;
+  }
+
+  .sale_block span {
+    font-size: 50px;
+  }
+
+  .testimonials_block {
+    display: block;
+  }
+
+  .testimonials_block section {
+    width: 100%;
+  }
+
+  .map {
+    margin-top: 25px;
+  }
+
+  .contact_box {
+    padding: 20px;
+    margin: auto;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .btn-footer {
+    margin: auto;
+  }
+
+  footer .icons {
+    text-align: center;
+  }
+
+  .copyright {
+    display: none;
+  }
+}
